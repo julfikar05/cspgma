@@ -1,0 +1,121 @@
+/* Root container */
+.duplicate-container {
+  padding: 20px;
+  min-height: 100vh;
+  background: #f5f7fb;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Header with buttons */
+.duplicate-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.home-button,
+.check-button {
+  background-color: #3498db;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.check-button {
+  background-color: #27ae60;
+}
+
+.home-button:hover {
+  background-color: #2980b9;
+}
+
+.check-button:hover {
+  background-color: #1e874b;
+}
+
+/* Message/Error */
+.message {
+  color: crimson;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Responsive table */
+.duplicate-table {
+  overflow-x: auto;
+}
+
+.table-scrollable {
+  max-width: 100%;
+  overflow-x: auto;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+  min-width: 1000px;
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap;
+}
+
+thead {
+  background: #e8eaed;
+}
+
+tbody tr:hover {
+  background-color: #f1f3f4;
+  cursor: pointer;
+}
+
+/* Record details section */
+.record-details-popup {
+  margin-top: 30px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* Close button for details box */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: crimson;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+/* Record details layout */
+.record-detail-content {
+  max-height: 300px;
+  overflow-y: auto;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.detail-item {
+  margin-bottom: 8px;
+}

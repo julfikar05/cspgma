@@ -1,0 +1,129 @@
+.asof-container {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f9fb;
+  min-height: 100vh;
+}
+
+/* Header with Home + Time */
+.asof-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.home-button {
+  background-color: #4a69bd;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.elapsed-time {
+  font-weight: bold;
+  font-size: 13px;
+  color: #2d3436;
+  background-color: #dff9fb;
+  padding: 8px 12px;
+  border-radius: 15px;
+}
+
+/* Upload & Check area */
+.asof-form-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.file-button {
+  background-color: #4f8ef7;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.file-label {
+  font-size: 14px;
+  color: #2d3436;
+  font-weight: bold;
+}
+
+.check-button {
+  background-color: #0984e3;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.check-button:hover {
+  background-color: #075cb7;
+}
+
+.message {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #d63031;
+}
+
+.asof-results {
+  margin-top: 20px;
+}
+
+.table-scroll-x {
+  overflow-x: auto;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-top: 10px;
+}
+
+.table-scroll-x table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 1000px;
+  font-size: 14px;
+}
+
+th, td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+  white-space: nowrap;
+}
+thead {
+  background: #f1f2f6;
+  font-weight: bold;
+}
+
+.download-link {
+  margin-top: 15px;
+}
+
+.download-link a {
+  text-decoration: none;
+  font-weight: bold;
+  background: #00b894;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 25px;
+}
